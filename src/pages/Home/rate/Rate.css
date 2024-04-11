@@ -1,0 +1,34 @@
+.swiper{
+    padding: 3rem;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet{
+    background-color: #313131;
+}
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width: 480px){
+    .swiper{
+        padding: 2rem;
+    }
+    .swiper-button-next::after{
+        font-size:2rem;
+        margin-right: -1rem;
+    }
+    .swiper-button-prev::after{
+        font-size: 2rem;
+        margin-left: -1rem;
+
+    }
+
+}

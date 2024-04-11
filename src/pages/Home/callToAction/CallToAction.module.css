@@ -1,0 +1,58 @@
+.call_to_action_content{
+    padding: 5rem 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.call_to_action_text{
+    width: 48rem;
+}
+
+.call_to_action_text > h1{
+    margin-bottom: 1.5rem;
+}
+
+.call_to_action_text > span{
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.call_to_action_buttons{
+    display: block;
+}
+
+.call_to_action_buttons > label{
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.call_to_action_buttons > button{
+    font-size: 1rem;
+    padding: .5rem 1rem ;
+    background-color: #49c456;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+}
+
+.call_to_action_buttons button{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.call_to_action_buttons > button:hover{
+    color: #fff;
+    background-color: #118483;
+}
+
+@media screen and (max-width: 480px){
+    .call_to_action_content{
+        padding: 4rem 2rem;
+    
+    }
+}
+
